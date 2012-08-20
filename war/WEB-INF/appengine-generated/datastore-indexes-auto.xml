@@ -1,0 +1,17 @@
+<!-- Indices written at Tue, 24 Jul 2012 14:19:47 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Chat" ancestor="false" source="auto">
+        <property name="keyfather" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="Chat" ancestor="false" source="auto">
+        <property name="keyfather" direction="asc"/>
+        <property name="date" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
